@@ -1,3 +1,4 @@
+![this script, summarized](https://i.imgur.com/nYpBaLe.png)
 # Unicheck
 Extremely sloppy and simple tool to check each character code via any browser console. I am not experienced that much with JS so don't expect it to be nice and universal, it sucks but it does its function more or less. 
 ## Using
