@@ -2,7 +2,7 @@ let Unicheck = {
     Get: function(id) {
         let text = document.getElementById(id).innerText;
         let length = text.length;
-        console.log(`Copied message is "${text}", length is ${inputlength}`);
+        console.log(`Copied message is "${text}", length is ${length}`);
 
         return [text, length];
     },
