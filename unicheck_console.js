@@ -11,7 +11,7 @@ let Unicheck = {
             return Unicheck.Get.Result(text);
         },
         bySelection: function() {
-            if (document.getSelection()) {
+            if (document.getSelection().toString.length > 0) {
                 let text = document.getSelection().toString();
                 return Unicheck.Get.Result(text);
             } else { console.error("There is no selection to copy content from it, dude."); return false; }
